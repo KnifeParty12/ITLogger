@@ -10,6 +10,10 @@ const AddLogModal = () => {
             M.toast({html: 'Please enter a message and tech'});
         }else{
             console.log(message, tech, attention);
+            // Clear Fields
+            setMessage('');
+            setTech('');
+            setAttention(false);
         }
     };
 
@@ -20,7 +24,7 @@ const AddLogModal = () => {
              <h4>Enter System Log</h4>
              <div className="row">
                  <div className="input-field">
-                     <input type="text "
+                     <input type="text"
                             name="message"
                             value={message}
                             onChange={e=> setMessage(e.target.value)}/>
