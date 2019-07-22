@@ -32,6 +32,13 @@
 
 <img src="Screenshots/Search log.gif" width=450px>
 
+* **Add Techs**
+
+<img src="Screenshots/Add Tech.gif" width=450px>
+
+* **Delete Techs**
+
+<img src="Screenshots/Delete Tech.gif" width=450px>
 
 
 <br><br><br><br><br><br>
