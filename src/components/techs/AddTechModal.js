@@ -3,8 +3,9 @@ import M from 'materialize-css/dist/js/materialize.min';
 import {connect} from 'react-redux';
 import {addTech} from "../../actions/techActions";
 
-
 const AddTechModal = ({addTech}) => {
+
+
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
 

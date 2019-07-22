@@ -3,16 +3,44 @@
     {
       "message": "Changed network card on server 005",
       "attention": false,
-      "tech": "John Doe",
-      "date": "2019-07-21T19:34:07.660Z",
+      "tech": "Nikhil Kumar",
+      "date": "2019-07-22T13:24:08.090Z",
       "id": 1
     },
     {
-      "id": 2,
-      "message": "Hard Drive recovered in workstation 002",
+      "message": "Workstation 124 Crashed",
+      "attention": true,
+      "tech": "Sanskriti Kocher",
+      "date": "2019-07-22T13:32:51.161Z",
+      "id": 2
+    },
+    {
+      "message": "DHCP server not working",
+      "attention": true,
+      "tech": "Sanskriti Kocher",
+      "date": "2019-07-22T13:33:21.138Z",
+      "id": 3
+    },
+    {
+      "message": "Fixed issue with insulation in workstation 002",
       "attention": false,
+      "tech": "Sara Wilson",
+      "date": "2019-07-22T13:33:48.365Z",
+      "id": 4
+    },
+    {
+      "message": "Power Fluctuations in sector-12",
+      "attention": true,
+      "tech": "Sanskriti Kocher",
+      "date": "2019-07-22T13:34:12.263Z",
+      "id": 5
+    },
+    {
+      "message": "Network Card not working in workstation 12",
+      "attention": true,
       "tech": "John Doe",
-      "date": "2019-07-21T20:33:46.517Z"
+      "date": "2019-07-22T13:34:37.576Z",
+      "id": 6
     }
   ],
   "techs": [
@@ -40,11 +68,6 @@
       "firstName": "Sanskriti",
       "lastName": "Kocher",
       "id": 5
-    },
-    {
-      "firstName": "Pradyuman",
-      "lastName": "Swami",
-      "id": 6
     }
   ]
 }
